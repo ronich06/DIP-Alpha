@@ -4,7 +4,8 @@
 
 #ifndef EJEMPLO_DIP2_HOSPITAL_H
 #define EJEMPLO_DIP2_HOSPITAL_H
-
+#include "iostream"
+#include "IVaccination.h"
 
 class Hospital{
 public:
