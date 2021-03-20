@@ -6,7 +6,12 @@
 #define EJEMPLO_DIP2_HOSPITAL_H
 
 
-class Hospital {
+class Hospital{
+public:
+    string vaccinate(IVaccination);
+private:
+
+
 
 };
 

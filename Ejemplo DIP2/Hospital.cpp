@@ -3,3 +3,6 @@
 //
 
 #include "Hospital.h"
+string Hospital::vaccinate(int iVaccination) {
+    return iVaccination.vaccineProcess();
+}
