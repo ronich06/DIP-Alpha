@@ -7,7 +7,7 @@
 #include "iostream"
 
 using namespace std;
-class IVacciantion{
+class IVaccination{
 public:
     virtual string vaccineProcess() = 0;
 };

@@ -3,6 +3,20 @@
 //
 
 #include "Hospital.h"
-string Hospital::vaccinate(int iVaccination) {
-    return iVaccination.vaccineProcess();
+Hospital::Hospital() {
+    name = "";
+}
+Hospital::Hospital(string name) {
+    this->name = name;
+}
+string Hospital::vaccinate(IVaccination* iVaccination) {
+    return iVaccination->vaccineProcess();
+}
+
+const string &Hospital::getName() const {
+    return name;
+}
+
+void Hospital::setName(const string &name) {
+    Hospital::name = name;
 }

@@ -9,9 +9,16 @@
 
 class Hospital{
 public:
-    string vaccinate(IVaccination);
-private:
+    Hospital();
+    Hospital(string);
 
+    const string &getName() const;
+
+    void setName(const string &name);
+
+    string vaccinate(IVaccination*);
+private:
+string name;
 
 
 };

@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class PfizerBioNTech : public IVacciantion
+class PfizerBioNTech : public IVaccination
          {
          public:
             string vaccineProcess() override;
