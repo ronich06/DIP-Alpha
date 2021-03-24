@@ -4,11 +4,12 @@
 
 #ifndef EJEMPLO_DIP2_IVACCINATION_H
 #define EJEMPLO_DIP2_IVACCINATION_H
-#include "iostream"
+#include <iostream>
 
 using namespace std;
 class IVaccination{
 public:
     virtual string vaccineProcess() = 0;
+    virtual ~IVaccination(){};
 };
 #endif //EJEMPLO_DIP2_IVACCINATION_H

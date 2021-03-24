@@ -20,3 +20,7 @@ const string &Hospital::getName() const {
 void Hospital::setName(const string &name) {
     Hospital::name = name;
 }
+
+Hospital::~Hospital() {
+
+}

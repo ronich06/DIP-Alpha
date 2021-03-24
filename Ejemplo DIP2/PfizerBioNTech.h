@@ -4,15 +4,16 @@
 
 #ifndef EJEMPLO_DIP2_PFIZERBIONTECH_H
 #define EJEMPLO_DIP2_PFIZERBIONTECH_H
-#include "iostream"
+#include <iostream>
 #include "IVaccination.h"
 
 using namespace std;
 
-class PfizerBioNTech : public IVaccination
-         {
-         public:
-            string vaccineProcess() override;
+class PfizerBioNTech : public IVaccination{
+    public:
+
+       string vaccineProcess() override;
+       ~PfizerBioNTech(){};
 };
 
 

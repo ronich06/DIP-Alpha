@@ -6,7 +6,7 @@
 #define EJEMPLO_DIP2_JOHNSON_H
 
 
-#include "iostream"
+#include <iostream>
 #include "IVaccination.h"
 
 
@@ -16,6 +16,7 @@ class Johnson : public IVaccination
 {
 public:
     string vaccineProcess() override;
+    ~Johnson(){};
 };
 
 

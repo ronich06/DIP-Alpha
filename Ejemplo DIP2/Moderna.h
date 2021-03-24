@@ -13,6 +13,7 @@ class Moderna : public IVaccination
 {
 public:
     string vaccineProcess() override;
+    ~Moderna(){};
 };
 
 

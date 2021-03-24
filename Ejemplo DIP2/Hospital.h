@@ -4,19 +4,19 @@
 
 #ifndef EJEMPLO_DIP2_HOSPITAL_H
 #define EJEMPLO_DIP2_HOSPITAL_H
-#include "iostream"
+#include <iostream>
 #include "IVaccination.h"
 
 class Hospital{
+
 public:
     Hospital();
     Hospital(string);
-
+    virtual ~Hospital();
     const string &getName() const;
-
     void setName(const string &name);
-
     string vaccinate(IVaccination*);
+
 private:
 string name;
 
