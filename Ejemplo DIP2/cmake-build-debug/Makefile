@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\brian\OneDrive\Escritorio\Nueva carpeta (2)\DIP-Alpha\Ejemplo DIP2"
+CMAKE_SOURCE_DIR = "C:\Users\Roni\CLionProjects\DIP-Alpha\Ejemplo DIP2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\brian\OneDrive\Escritorio\Nueva carpeta (2)\DIP-Alpha\Ejemplo DIP2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Roni\CLionProjects\DIP-Alpha\Ejemplo DIP2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\brian\OneDrive\Escritorio\Nueva carpeta (2)\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles" "C:\Users\brian\OneDrive\Escritorio\Nueva carpeta (2)\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Roni\CLionProjects\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles" "C:\Users\Roni\CLionProjects\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\brian\OneDrive\Escritorio\Nueva carpeta (2)\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Roni\CLionProjects\DIP-Alpha\Ejemplo DIP2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,114 @@ Ejemplo_DIP2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/build
 .PHONY : Ejemplo_DIP2/fast
 
+Hospital.obj: Hospital.cpp.obj
+
+.PHONY : Hospital.obj
+
+# target to build an object file
+Hospital.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Hospital.cpp.obj
+.PHONY : Hospital.cpp.obj
+
+Hospital.i: Hospital.cpp.i
+
+.PHONY : Hospital.i
+
+# target to preprocess a source file
+Hospital.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Hospital.cpp.i
+.PHONY : Hospital.cpp.i
+
+Hospital.s: Hospital.cpp.s
+
+.PHONY : Hospital.s
+
+# target to generate assembly for a file
+Hospital.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Hospital.cpp.s
+.PHONY : Hospital.cpp.s
+
+Johnson.obj: Johnson.cpp.obj
+
+.PHONY : Johnson.obj
+
+# target to build an object file
+Johnson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Johnson.cpp.obj
+.PHONY : Johnson.cpp.obj
+
+Johnson.i: Johnson.cpp.i
+
+.PHONY : Johnson.i
+
+# target to preprocess a source file
+Johnson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Johnson.cpp.i
+.PHONY : Johnson.cpp.i
+
+Johnson.s: Johnson.cpp.s
+
+.PHONY : Johnson.s
+
+# target to generate assembly for a file
+Johnson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Johnson.cpp.s
+.PHONY : Johnson.cpp.s
+
+Moderna.obj: Moderna.cpp.obj
+
+.PHONY : Moderna.obj
+
+# target to build an object file
+Moderna.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Moderna.cpp.obj
+.PHONY : Moderna.cpp.obj
+
+Moderna.i: Moderna.cpp.i
+
+.PHONY : Moderna.i
+
+# target to preprocess a source file
+Moderna.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Moderna.cpp.i
+.PHONY : Moderna.cpp.i
+
+Moderna.s: Moderna.cpp.s
+
+.PHONY : Moderna.s
+
+# target to generate assembly for a file
+Moderna.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/Moderna.cpp.s
+.PHONY : Moderna.cpp.s
+
+PfizerBioNTech.obj: PfizerBioNTech.cpp.obj
+
+.PHONY : PfizerBioNTech.obj
+
+# target to build an object file
+PfizerBioNTech.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/PfizerBioNTech.cpp.obj
+.PHONY : PfizerBioNTech.cpp.obj
+
+PfizerBioNTech.i: PfizerBioNTech.cpp.i
+
+.PHONY : PfizerBioNTech.i
+
+# target to preprocess a source file
+PfizerBioNTech.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/PfizerBioNTech.cpp.i
+.PHONY : PfizerBioNTech.cpp.i
+
+PfizerBioNTech.s: PfizerBioNTech.cpp.s
+
+.PHONY : PfizerBioNTech.s
+
+# target to generate assembly for a file
+PfizerBioNTech.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejemplo_DIP2.dir\build.make CMakeFiles/Ejemplo_DIP2.dir/PfizerBioNTech.cpp.s
+.PHONY : PfizerBioNTech.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +286,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ejemplo_DIP2
+	@echo ... Hospital.obj
+	@echo ... Hospital.i
+	@echo ... Hospital.s
+	@echo ... Johnson.obj
+	@echo ... Johnson.i
+	@echo ... Johnson.s
+	@echo ... Moderna.obj
+	@echo ... Moderna.i
+	@echo ... Moderna.s
+	@echo ... PfizerBioNTech.obj
+	@echo ... PfizerBioNTech.i
+	@echo ... PfizerBioNTech.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
