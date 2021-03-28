@@ -12,9 +12,9 @@ int main() {//h
     cout<<"Bienvenido al Hospital San Juan de Dios\n";
 
     Hospital hospital("San Juan de Dios");
-    Moderna* _vacunaModerna= new Moderna();
-    Johnson* _vacunaJohnsons= new Johnson() ;
-    PfizerBioNTech* _vacunaPfizer= new PfizerBioNTech();
+    IVaccination* _vacunaModerna= new Moderna();
+    IVaccination* _vacunaJohnsons= new Johnson() ;
+    IVaccination* _vacunaPfizer= new PfizerBioNTech();
 
     cout<<"===========Proceso de Vacunacion========\n";
     cout<<"Digite la vacuna que de aplicarse\n";
