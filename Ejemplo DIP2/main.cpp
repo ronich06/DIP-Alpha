@@ -18,7 +18,7 @@ int main() {//h
 
     cout<<"===========Proceso de Vacunacion========\n";
     cout<<"Digite la vacuna que de aplicarse\n";
-    cout<<"1-Pzifer\n 2-Johnsons\n 3-Moderna\n";
+    cout<<" 1-Pzifer\n 2-Johnsons\n 3-Moderna\n";
     int clave;
     cin>>clave;
     switch (clave) {
