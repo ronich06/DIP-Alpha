@@ -13,7 +13,7 @@ class PfizerBioNTech : public IVaccination{
     public:
 
        string vaccineProcess() override;
-       ~PfizerBioNTech(){};
+       ~PfizerBioNTech()=default;
 };
 
 

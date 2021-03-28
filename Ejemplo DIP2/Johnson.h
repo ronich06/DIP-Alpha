@@ -16,7 +16,7 @@ class Johnson : public IVaccination
 {
 public:
     string vaccineProcess() override;
-    ~Johnson(){};
+    ~Johnson()=default;
 };
 
 

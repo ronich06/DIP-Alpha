@@ -10,6 +10,6 @@ using namespace std;
 class IVaccination{
 public:
     virtual string vaccineProcess() = 0;
-    virtual ~IVaccination(){};
+    virtual ~IVaccination()=default;
 };
 #endif //EJEMPLO_DIP2_IVACCINATION_H

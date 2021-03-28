@@ -39,6 +39,8 @@ int main() {//h
 
     }
 
-
+    delete _vacunaJohnsons;
+    delete _vacunaModerna;
+    delete _vacunaPfizer;
     return 0;
 }
