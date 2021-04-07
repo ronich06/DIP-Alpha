@@ -9,6 +9,7 @@ Hospital::Hospital() {
 Hospital::Hospital(string name) {
     this->name = name;
 }
+
 string Hospital::vaccinate(IVaccination* iVaccination) {
     return iVaccination->vaccineProcess();
 }
